@@ -7,6 +7,15 @@
 //------------------------------------------------------------------------------
 
 
+namespace Windows {
+    namespace UI {
+        namespace Xaml {
+            namespace Controls {
+                ref class Grid;
+            }
+        }
+    }
+}
 
 namespace SchemaApp
 {
@@ -23,6 +32,7 @@ namespace SchemaApp
     private:
         bool _contentLoaded;
     
+        private: ::Windows::UI::Xaml::Controls::Grid^ MainGrid;
     };
 }
 
